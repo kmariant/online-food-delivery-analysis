@@ -4,29 +4,29 @@
 
 This project analyses customer behaviour in an online food delivery dataset using Python, SQL and statistical analysis.
 
-The goal is to identify customer characteristics associated with online food ordering and turn the findings into practical business recommendations.
+The objective is to identify customer characteristics associated with online food ordering and translate the findings into practical business recommendations.
 
 ## Business Questions
 
-- What percentage of customers order food online?
-- Which age groups have the highest ordering rates?
-- Which occupations have the highest ordering rates?
-- Is gender associated with online ordering?
-- Is marital status associated with online ordering?
-- Is customer feedback associated with online ordering?
-- Does income differ between customers who order online and those who do not?
-- Which customer characteristics are useful for customer segmentation?
+* What percentage of customers order food online?
+* Which age groups have the highest ordering rates?
+* Which occupations have the highest ordering rates?
+* Is gender associated with online ordering?
+* Is marital status associated with online ordering?
+* Is customer feedback associated with online ordering?
+* Does income differ between customers who order online and those who do not?
+* Which customer characteristics are useful for customer segmentation?
 
 ## Tools and Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- SciPy
-- DuckDB
-- SQL
-- Jupyter Notebook
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* SciPy
+* DuckDB
+* SQL
+* Jupyter Notebook
 
 ## Analysis Process
 
@@ -35,7 +35,7 @@ The goal is to identify customer characteristics associated with online food ord
 3. Data cleaning
 4. Exploratory data analysis
 5. Data visualization
-6. Statistical analysis
+6. Statistical testing
 7. SQL analysis
 8. Business recommendations
 
@@ -45,9 +45,9 @@ Approximately 76% of customers in the dataset reported ordering food online.
 
 Age group, occupation, marital status and customer feedback showed statistically significant associations with online food ordering.
 
-Gender, educational qualifications, customer type and family size did not show statistically significant associations at the 5% significance level.
+Customer feedback produced the strongest chi-square result among the categorical variables tested.
 
-Customer feedback produced the strongest chi-square statistic among the categorical variables tested.
+Gender, educational qualifications, customer type and family size did not show statistically significant associations with online food ordering at the 5% significance level.
 
 Younger customers and students showed higher ordering rates in the descriptive analysis.
 
@@ -63,33 +63,28 @@ A significance level of 0.05 was used.
 
 The findings suggest that food delivery businesses should:
 
-- Focus digital marketing on younger customers
-- Develop targeted student promotions
-- Monitor customer feedback closely
-- Investigate negative feedback
-- Segment marketing by occupation
-- Examine differences across marital-status groups
-- Avoid relying heavily on gender for customer targeting
+* Focus digital marketing on younger customers
+* Develop targeted student promotions
+* Monitor customer feedback closely
+* Investigate negative feedback
+* Segment campaigns by occupation
+* Examine differences across marital-status groups
+* Avoid relying heavily on gender for customer targeting
 
 ## Project Structure
 
+```text
 online-food-delivery-analysis/
-
+│
+├── README.md
 ├── online_food_delivery_analysis.ipynb
-
+│
 ├── data/
-
 │   └── online_food_delivery_cleaned.csv
-
-├── sql/
-
-│   └── business_analysis.sql
-
-├── results/
-
-├── visualizations/
-
-└── README.md
+│
+└── sql/
+    └── business_analysis.sql
+```
 
 ## Conclusion
 
