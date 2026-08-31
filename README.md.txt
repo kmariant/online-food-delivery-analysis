@@ -50,6 +50,37 @@ Customer feedback produced the strongest chi-square result among the categorical
 Gender, educational qualifications, customer type and family size did not show statistically significant associations with online food ordering at the 5% significance level.
 
 Younger customers and students showed higher ordering rates in the descriptive analysis.
+The findings describe associations within the dataset and should not be interpreted as evidence of causal relationships.
+## Statistical Results
+
+Chi-square tests were conducted at a 5% significance level to examine associations between categorical customer characteristics and online food ordering.
+
+| Variable                   | Chi-square | p-value | Significant |
+| -------------------------- | ---------: | ------: | ----------- |
+| Gender                     |      0.210 |  0.6468 | No          |
+| Age group                  |     27.580 |  <0.001 | Yes         |
+| Occupation                 |     21.609 |  <0.001 | Yes         |
+| Educational qualifications |      7.516 |  0.1110 | No          |
+| Marital status             |     23.616 |  <0.001 | Yes         |
+| Customer type              |      0.292 |  0.8642 | No          |
+| Family size                |      7.770 |  0.1694 | No          |
+| Feedback                   |     82.523 |  <0.001 | Yes         |
+
+### Interpretation
+
+Four variables showed statistically significant associations with online food ordering:
+
+* Age group
+* Occupation
+* Marital status
+* Customer feedback
+
+Customer feedback produced the largest chi-square statistic, suggesting the strongest statistical association among the categorical variables tested.
+
+Gender, educational qualifications, customer type and family size did not show statistically significant associations at the 5% significance level.
+
+These results indicate associations within the dataset. They do not establish causal relationships.
+
 
 ## Statistical Analysis
 
@@ -90,4 +121,3 @@ online-food-delivery-analysis/
 
 The analysis demonstrates how Python, SQL, visualization and statistical testing can be combined to transform customer data into actionable business insights.
 
-The findings describe associations within the dataset and should not be interpreted as evidence of causal relationships.
